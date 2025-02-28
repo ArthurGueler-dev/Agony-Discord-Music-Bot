@@ -31,7 +31,7 @@ https://discord.com/oauth2/authorize?client_id=1344148111366422548&permissions=3
 
 ## Comandos do bot
 
-- /play
+- # /play
   Toca uma música do Youtube, Spotify ou busca pelo nome
 - /clear
   Limpa a fila de músicas
