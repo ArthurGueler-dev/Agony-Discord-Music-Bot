@@ -2,8 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![GitHub last commit](https://img.shields.io/github/last-commit/ArthurGueler-dev/Agony-Discord-Bot)
-![GitHub repo size](https://img.shields.io/github/repo-size/ArthurGueler-dev/Agony-Discord-Bot)
+![GitHub last commit](https://img.shields.io/github/last-commit/ArthurGueler-dev/Agony-Discord-Music-Bot)
+![GitHub repo size](https://img.shields.io/github/repo-size/ArthurGueler-dev/Agony-Discord-Music-Bot)
 
 Um bot de música para Discord que toca músicas do YouTube, Spotify e muito mais.
 
