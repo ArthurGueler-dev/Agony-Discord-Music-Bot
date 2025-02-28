@@ -105,7 +105,7 @@ Aqui está a lista completa de comandos disponíveis no bot e como usá-los:
 ## Como usar
 
 1. **Adicione o bot ao seu servidor**:  
-   Use o link de convite (https://discord.com/developers/applications](https://discord.com/oauth2/authorize?client_id=1344148111366422548&permissions=3222528&integration_type=0&scope=bot) para adicionar o bot ao seu servidor.
+   Use o link de convite https://discord.com/oauth2/authorize?client_id=1344148111366422548&permissions=3222528&integration_type=0&scope=bot para adicionar o bot ao seu servidor.
 
 2. **Execute os comandos**:  
    Use os comandos listados acima para controlar o bot.
