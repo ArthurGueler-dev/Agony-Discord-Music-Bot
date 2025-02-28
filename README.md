@@ -24,101 +24,111 @@ Um bot de música para Discord que toca músicas do YouTube, Spotify e muito mai
 ## Requisitos
 - Python 3.8 ou superior.
 - Bibliotecas: `discord.py`, `yt-dlp`, `lyricsgenius`, `spotipy`.
-  
-## Link de convite do bot
--Use o link para convidar o bot para seus respectivos servidores
-https://discord.com/oauth2/authorize?client_id=1344148111366422548&permissions=3222528&integration_type=0&scope=bot
 
-Comandos do bot
+## Comandos do bot
+
 Aqui está a lista completa de comandos disponíveis no bot e como usá-los:
 
-🎵 Comandos de música
-/play <query>
+### 🎵 Comandos de música
 
-Toca uma música do YouTube, Spotify ou busca pelo nome.
+- **`/play <query>`**  
+  Toca uma música do YouTube, Spotify ou busca pelo nome.  
+  Exemplo: `/play Bohemian Rhapsody` ou `/play https://www.youtube.com/watch?v=...`.
 
-Exemplo: /play Bohemian Rhapsody ou /play https://www.youtube.com/watch?v=....
+- **`/playlist <url>`**  
+  Adiciona uma playlist do YouTube à fila.  
+  Exemplo: `/playlist https://www.youtube.com/playlist?list=...`.
 
-/playlist <url>
+- **`/pause`**  
+  Pausa a música que está tocando no momento.
 
-Adiciona uma playlist do YouTube à fila.
+- **`/resume`**  
+  Retoma a música que foi pausada.
 
-Exemplo: /playlist https://www.youtube.com/playlist?list=....
+- **`/skip`**  
+  Pula a música atual e toca a próxima da fila.
 
-/pause
+- **`/stop`**  
+  Para a música e desconecta o bot do canal de voz.
 
-Pausa a música que está tocando no momento.
+- **`/nowplaying`**  
+  Mostra a música que está tocando no momento.
 
-/resume
+- **`/queue`**  
+  Mostra a fila de músicas atual.
 
-Retoma a música que foi pausada.
+- **`/shuffle`**  
+  Embaralha a fila de músicas.
 
-/skip
+- **`/loop`**  
+  Ativa ou desativa o loop da música atual.
 
-Pula a música atual e toca a próxima da fila.
+- **`/queueloop`**  
+  Ativa ou desativa o loop da fila inteira.
 
-/stop
+- **`/seek <segundos>`**  
+  Pula para um ponto específico da música (em segundos).  
+  Exemplo: `/seek 120` (pula para 2 minutos).
 
-Para a música e desconecta o bot do canal de voz.
+- **`/remove <posição>`**  
+  Remove uma música da fila.  
+  Exemplo: `/remove 3` (remove a terceira música da fila).
 
-/nowplaying
+- **`/move <de> <para>`**  
+  Move uma música para outra posição na fila.  
+  Exemplo: `/move 2 5` (move a segunda música para a quinta posição).
 
-Mostra a música que está tocando no momento.
+- **`/clear`**  
+  Limpa a fila de músicas.
 
-/queue
+---
 
-Mostra a fila de músicas atual.
+### 🎲 Comandos de entretenimento
 
-/shuffle
+- **`/testar_sorte`**  
+  Testa sua sorte com uma roleta de eventos aleatórios.  
+  Exemplo: `/testar_sorte`.
 
-Embaralha a fila de músicas.
+---
 
-/loop
+### 📜 Comandos de letras e histórico
 
-Ativa ou desativa o loop da música atual.
+- **`/lyrics <nome da música>`**  
+  Mostra a letra da música atual ou de uma música específica.  
+  Exemplo: `/lyrics Bohemian Rhapsody`.
 
-/queueloop
+- **`/historico`**  
+  Mostra o histórico de músicas que você adicionou à fila.
 
-Ativa ou desativa o loop da fila inteira.
+---
 
-/seek <segundos>
+## Como usar
 
-Pula para um ponto específico da música (em segundos).
+1. **Adicione o bot ao seu servidor**:  
+   Use o link de convite[Discord Developer Portal]([https://discord.com/developers/applications](https://discord.com/oauth2/authorize?client_id=1344148111366422548&permissions=3222528&integration_type=0&scope=bot) para adicionar o bot ao seu servidor.
 
-Exemplo: /seek 120 (pula para 2 minutos).
+2. **Execute os comandos**:  
+   Use os comandos listados acima para controlar o bot.
 
-/remove <posição>
+3. **Divirta-se**:  
+   Aproveite a música e as funcionalidades do bot!
 
-Remove uma música da fila.
+---
 
-Exemplo: /remove 3 (remove a terceira música da fila).
+## Requisitos
 
-/move <de> <para>
+- Python 3.8 ou superior.
+- Bibliotecas: `discord.py`, `yt-dlp`, `lyricsgenius`, `spotipy`.
 
-Move uma música para outra posição na fila.
+---
 
-Exemplo: /move 2 5 (move a segunda música para a quinta posição).
+## Badges
 
-/clear
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
+![License](https://img.shields.io/badge/License-MIT-green)  
+![GitHub last commit](https://img.shields.io/github/last-commit/ArthurGueler-dev/Agony-Discord-Bot)  
+![GitHub repo size](https://img.shields.io/github/repo-size/ArthurGueler-dev/Agony-Discord-Bot)
 
-Limpa a fila de músicas.
 
-🎲 Comandos de entretenimento
-/testar_sorte
-
-Testa sua sorte com uma roleta de eventos aleatórios.
-
-Exemplo: /testar_sorte.
-
-📜 Comandos de letras e histórico
-/lyrics <nome da música>
-
-Mostra a letra da música atual ou de uma música específica.
-
-Exemplo: /lyrics Bohemian Rhapsody.
-
-/historico
-
-Mostra o histórico de músicas que você adicionou à fila.
 
 
