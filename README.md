@@ -29,4 +29,28 @@ Um bot de música para Discord que toca músicas do YouTube, Spotify e muito mai
 -Use o link para convidar o bot para seus respectivos servidores
 https://discord.com/oauth2/authorize?client_id=1344148111366422548&permissions=3222528&integration_type=0&scope=bot
 
+## Comandos do bot
+
+- /play
+  Toca uma música do Youtube, Spotify ou busca pelo nome
+- /clear
+  Limpa a fila de músicas
+- /historico
+  Mostra o histórico de músicas que você escutou
+- /loop
+- /lyrics
+- /move
+- /nowplaying
+- /pause
+- /playlist
+- /queue
+- /queueloop
+- /remove
+- /resume
+- /seek
+- /shuffle
+- /skip
+- /stop
+- /testar_sorte
+
 
